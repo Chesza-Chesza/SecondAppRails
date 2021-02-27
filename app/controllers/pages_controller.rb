@@ -1,11 +1,9 @@
 class PagesController < ApplicationController
-  def test
-  end
-
   def index
   end
 
-  def users
+  def test
+    @test_info = Date.today
   end
 
   def about_us
